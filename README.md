@@ -5,13 +5,22 @@ The server is live at [AttViz](http://attviz.ijs.si).
 
 Current preprint:
 ```
-@misc{krlj2020attviz,
-    title={AttViz: Online exploration of self-attention for transparent neural language modeling},
-    author={Blaž Škrlj and Nika Eržen and Shane Sheehan and Saturnino Luz and Marko Robnik-Šikonja and Senja Pollak},
-    year={2020},
-    eprint={2005.05716},
-    archivePrefix={arXiv},
-    primaryClass={cs.LG}
+@inproceedings{skrlj-etal-2021-exploring,
+    title = "Exploring Neural Language Models via Analysis of Local and Global Self-Attention Spaces",
+    author = "{\v{S}}krlj, Bla{\v{z}}  and
+      Sheehan, Shane  and
+      Er{\v{z}}en, Nika  and
+      Robnik-{\v{S}}ikonja, Marko  and
+      Luz, Saturnino  and
+      Pollak, Senja",
+    booktitle = "Proceedings of the EACL Hackashop on News Media Content Analysis and Automated Report Generation",
+    month = apr,
+    year = "2021",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2021.hackashop-1.11",
+    pages = "76--83",
+    abstract = "Large pretrained language models using the transformer neural network architecture are becoming a dominant methodology for many natural language processing tasks, such as question answering, text classification, word sense disambiguation, text completion and machine translation. Commonly comprising hundreds of millions of parameters, these models offer state-of-the-art performance, but at the expense of interpretability. The attention mechanism is the main component of transformer networks. We present AttViz, a method for exploration of self-attention in transformer networks, which can help in explanation and debugging of the trained models by showing associations between text tokens in an input sequence. We show that existing deep learning pipelines can be explored with AttViz, which offers novel visualizations of the attention heads and their aggregations. We implemented the proposed methods in an online toolkit and an offline library. Using examples from news analysis, we demonstrate how AttViz can be used to inspect and potentially better understand what a model has learned.",
 }
 ```
 ![AttViz image](images/exampleview1.png)
