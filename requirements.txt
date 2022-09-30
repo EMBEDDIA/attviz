@@ -40,7 +40,7 @@ jdcal==1.4.1
 jeepney==0.4.2
 Jinja2==2.11.3
 jmespath==0.9.4
-joblib==0.14.1
+joblib==1.2.0
 jupyter-core==4.4.0
 kazam==1.4.5
 Keras==2.3.1
