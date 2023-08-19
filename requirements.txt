@@ -122,7 +122,7 @@ s3transfer==0.2.1
 sacremoses==0.0.43
 SCD==0.1
 scikit-learn==0.22.1
-scipy==1.4.1
+scipy==1.10.0
 scour==0.36
 SecretStorage==3.1.2
 sentencepiece==0.1.90
